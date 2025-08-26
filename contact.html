@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+</head>
+<body>
+    <h1>LISAH'S SPRINKLED COTTAGE</h1>
+    <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="menu.html">Menu</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="order.html">Order Now</a>
+          <a href="contact.html">Contact Us</a>
+    </nav>
+
+
+<main class="wrapper">
+<div class="grid" style="grid-template-columns: 1fr;">
+<!-- CONTACT FORM -->
+<section class="card" aria-labelledby="contact-form-heading">
+<h2 id="contact-form-heading">Contact form</h2>
+<!-- NOTE: Replace action with your backend endpoint (e.g., Formspree/Netlify/your server) -->
+<form action="#" method="post" novalidate>
+<div>
+<label for="full-name">Full name</label>
+<input id="full-name" name="full_name" type="text" autocomplete="name" required />
+</div>
+<div>
+<label for="email">Email</label>
+<input id="email" name="email" type="email" autocomplete="email" required />
+</div>
+<div>
+<label for="phone">Phone</label>
+<input id="phone" name="phone" type="tel" autocomplete="tel" />
+</div>
+<div>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="6" required></textarea>
+</div>
+<button type="submit">Send message</button>
+</form>  
+</section>
+
+
+<!-- BUSINESS DETAILS -->
+<section class="card" aria-labelledby="contact-details-heading">
+<h2 id="contact-details-heading">Contact details</h2>
+<p><strong>Business email:</strong> <a href="mailto:info@lisahssprinkledcottage.co.za">info@lisahssprinkledcottage.co.za</a> <!-- Replace with your real email --></p>
+<p><strong>Physical location:</strong> 123 Sweet Lane, Rosewood, Johannesburg, South Africa <!-- Replace with your real address --></p>
+<p><strong>Phone:</strong> +27 00 000 0000 <!-- Replace with your real phone number --></p>
+</section>
+
+
+<!-- HOURS & HOLIDAYS -->
+<section class="card" aria-labelledby="hours-heading">
+<h2 id="hours-heading">Operating hours</h2>
+<p>Monday – Friday: 08:00 – 17:00</p>
+<p>Saturday: 09:00 – 14:00</p>
+<p>Sunday: Closed</p>
+
+
+<h3>Holiday schedule</h3>
+<p>Closed on public holidays.</p>
+<p>Festive season (15–24 December): Extended hours 08:00 – 19:00. <!-- Adjust to your real schedule --></p>
+</section>
+</div>
+</main>
+
+
+<footer>
+<small>&copy; <span id="year"></span> LISAH'S SPRINKLED COTTAGE. All rights reserved.</small>
+</footer>
+
+
+<script>
+// Simple year updater
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
+</body>
+</html>

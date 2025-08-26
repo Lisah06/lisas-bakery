@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu page</title>
+    <script>
+    function showCategory(category) {
+      var items = document.getElementsByClassName("item");
+      for (var i = 0; i < items.length; i++) {
+        if (category === "all") {
+          items[i].style.display = "block";
+        } else if (items[i].classList.contains(category)) {
+          items[i].style.display = "block";
+        } else {
+          items[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    
+  <h1>Lisah's Sprinkled Cottage</h1>
+   <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="order.html">Order Now</a>
+        <a href="contact.html">Contact Us</a>
+  <h1>Our Delicious Menu!</h1>
+
+
+  <!-- Navigation buttons -->
+  <p>
+    <button onclick="location.href='#pastries'">Pastries</button>
+    <button onclick="location.href='#cupcakes'">Cupcakes</button>
+    <button onclick="location.href='#brownies'">Brownies</button>
+    <button onclick="location.href='#cakes'">Cakes</button>
+  </p>
+  <!-- Pastries -->
+  <h2 id="pastries">Pastries</h2>
+  <p><b>Butter Croissant</b> - $2.50<br>Flaky and buttery croissant baked fresh daily.<br><button>Add to Cart</button></p>
+  <p><b>Chocolate Croissant</b> - $3.00<br>Croissant filled with smooth chocolate.<br><button>Add to Cart</button></p>
+
+  <!-- Cupcakes -->
+  <h2 id="cupcakes">Cupcakes</h2>
+  <p><b>Red Velvet Cupcake</b> - $3.50<br>Moist red velvet topped with cream cheese frosting.<br><button>Add to Cart</button></p>
+  <p><b>Chocolate Cupcake</b> - $3.00<br>Rich chocolate sponge with chocolate frosting.<br><button>Add to Cart</button></p>
+  <p><b>Vanilla Cupcake</b> - $3.00<br>Classic vanilla cupcake with sprinkles.<br><button>Add to Cart</button></p>
+
+  <!-- Brownies -->
+  <h2 id="brownies">Brownies</h2>
+  <p><b>Gluten-Free Brownie</b> - $4.00<br>Made with almond flour and dark chocolate.<br><button>Add to Cart</button></p>
+  <p><b>Walnut Brownie</b> - $3.50<br>Classic chocolate brownie with crunchy walnuts.<br><button>Add to Cart</button></p>
+  <p><b>Mint Chocolate Brownie</b> - $3.50<br>Refreshing mint and rich chocolate blend.<br><button>Add to Cart</button></p>
+  <p><b>Salted Caramel Brownie</b> - $3.75<br>Chocolate brownie drizzled with salted caramel.<br><button>Add to Cart</button></p>
+  <p><b>Vegan Brownie</b> - $3.50<br>Dairy-free and egg-free chocolate brownie.<br><button>Add to Cart</button></p>
+
+  <!-- Cakes -->
+  <h2 id="cakes">Cakes (Celebrations)</h2>
+  <p><b>Strawberry Cake</b> - $20.00<br>Fresh strawberry sponge with cream layers.<br><button>Add to Cart</button></p>
+  <p><b>Chocolate Cake</b> - $22.00<br>Rich chocolate layered cake.<br><button>Add to Cart</button></p>
+  <p><b>Lemon Cake</b> - $18.00<br>Zesty lemon sponge with citrus glaze.<br><button>Add to Cart</button></p>
+  <p><b>Carrot Cake</b> - $19.00<br>Spiced carrot cake with cream cheese frosting.<br><button>Add to Cart</button></p>
+  <p><b>Caramel Cake</b> - $21.00<br>Moist sponge cake with caramel filling.<br><button>Add to Cart</button></p>
+  <p><b>Vanilla Cake</b> - $18.00<br>Classic vanilla sponge with buttercream.<br><button>Add to Cart</button></p>
+  <p><b>Confetti Cake</b> - $20.00<br>Funfetti sponge with colorful sprinkles.<br><button>Add to Cart</button></p>
+  <p><b>Black Forest Cake</b> - $23.00<br>Chocolate, cherries, and whipped cream layers.<br><button>Add to Cart</button></p>
+  <p><b>Ice Cream Cake</b> - $25.00<br>Creamy ice cream layers with cake base.<br><button>Add to Cart</button></p>
+ 
+
+
+
+   
+
+  
+</body>
+</html>
