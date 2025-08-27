@@ -4,77 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu page</title>
-    <script>
-    function showCategory(category) {
-      var items = document.getElementsByClassName("item");
-      for (var i = 0; i < items.length; i++) {
-        if (category === "all") {
-          items[i].style.display = "block";
-        } else if (items[i].classList.contains(category)) {
-          items[i].style.display = "block";
-        } else {
-          items[i].style.display = "none";
-        }
-      }
-    }
-  </script>
-</head>
+</head> 
 <body>
     
   <h1>Lisah's Sprinkled Cottage</h1>
+  <h2>Where you'll meet your Love at first Bite!</h2>
    <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
         <a href="menu.html">Menu</a>
         <a href="gallery.html">Gallery</a>
-        <a href="order.html">Order Now</a>
+        <a href="Reviews.html">Reviews</a>
         <a href="contact.html">Contact Us</a>
   <h1>Our Delicious Menu!</h1>
+  
+  <h2>Pastries</h2>
+  <p><b>Butter Croissant</b> - R32,50<br>Flaky and buttery croissant baked fresh daily.</p>
+  <p><b>Chocolate Croissant</b> - R35,00<br>Croissant filled with smooth chocolate.<br></p>
+  <p><b>Almond Croissant</b> - R38,00<br>Croissant topped with sliced almonds and powdered sugar.<br></p>
 
+  <h2>Cupcakes</h2>
+  <p><b>Red Velvet Cupcake</b> - R23,00<br>Moist red velvet topped with cream cheese frosting.</p>
+  <p><b>Chocolate Cupcake</b> - R20,00<br>Rich chocolate sponge with chocolate frosting.<br></p>
+  <p><b>Vanilla Cupcake</b> - R17,50<br>Classic vanilla cupcake with sprinkles.<br></p>
 
-  <!-- Navigation buttons -->
-  <p>
-    <button onclick="location.href='#pastries'">Pastries</button>
-    <button onclick="location.href='#cupcakes'">Cupcakes</button>
-    <button onclick="location.href='#brownies'">Brownies</button>
-    <button onclick="location.href='#cakes'">Cakes</button>
-  </p>
-  <!-- Pastries -->
-  <h2 id="pastries">Pastries</h2>
-  <p><b>Butter Croissant</b> - $2.50<br>Flaky and buttery croissant baked fresh daily.<br><button>Add to Cart</button></p>
-  <p><b>Chocolate Croissant</b> - $3.00<br>Croissant filled with smooth chocolate.<br><button>Add to Cart</button></p>
-
-  <!-- Cupcakes -->
-  <h2 id="cupcakes">Cupcakes</h2>
-  <p><b>Red Velvet Cupcake</b> - $3.50<br>Moist red velvet topped with cream cheese frosting.<br><button>Add to Cart</button></p>
-  <p><b>Chocolate Cupcake</b> - $3.00<br>Rich chocolate sponge with chocolate frosting.<br><button>Add to Cart</button></p>
-  <p><b>Vanilla Cupcake</b> - $3.00<br>Classic vanilla cupcake with sprinkles.<br><button>Add to Cart</button></p>
-
-  <!-- Brownies -->
-  <h2 id="brownies">Brownies</h2>
-  <p><b>Gluten-Free Brownie</b> - $4.00<br>Made with almond flour and dark chocolate.<br><button>Add to Cart</button></p>
-  <p><b>Walnut Brownie</b> - $3.50<br>Classic chocolate brownie with crunchy walnuts.<br><button>Add to Cart</button></p>
-  <p><b>Mint Chocolate Brownie</b> - $3.50<br>Refreshing mint and rich chocolate blend.<br><button>Add to Cart</button></p>
-  <p><b>Salted Caramel Brownie</b> - $3.75<br>Chocolate brownie drizzled with salted caramel.<br><button>Add to Cart</button></p>
-  <p><b>Vegan Brownie</b> - $3.50<br>Dairy-free and egg-free chocolate brownie.<br><button>Add to Cart</button></p>
-
-  <!-- Cakes -->
-  <h2 id="cakes">Cakes (Celebrations)</h2>
-  <p><b>Strawberry Cake</b> - $20.00<br>Fresh strawberry sponge with cream layers.<br><button>Add to Cart</button></p>
-  <p><b>Chocolate Cake</b> - $22.00<br>Rich chocolate layered cake.<br><button>Add to Cart</button></p>
-  <p><b>Lemon Cake</b> - $18.00<br>Zesty lemon sponge with citrus glaze.<br><button>Add to Cart</button></p>
-  <p><b>Carrot Cake</b> - $19.00<br>Spiced carrot cake with cream cheese frosting.<br><button>Add to Cart</button></p>
-  <p><b>Caramel Cake</b> - $21.00<br>Moist sponge cake with caramel filling.<br><button>Add to Cart</button></p>
-  <p><b>Vanilla Cake</b> - $18.00<br>Classic vanilla sponge with buttercream.<br><button>Add to Cart</button></p>
-  <p><b>Confetti Cake</b> - $20.00<br>Funfetti sponge with colorful sprinkles.<br><button>Add to Cart</button></p>
-  <p><b>Black Forest Cake</b> - $23.00<br>Chocolate, cherries, and whipped cream layers.<br><button>Add to Cart</button></p>
-  <p><b>Ice Cream Cake</b> - $25.00<br>Creamy ice cream layers with cake base.<br><button>Add to Cart</button></p>
- 
-
-
-
-   
+  <h2>Brownies</h2>
+  <p><b>Gluten-Free Brownie</b> - R15,00<br>Made with almond flour and dark chocolate.<br></p>
+  <p><b>Walnut Brownie</b> - R16,50<br>Classic chocolate brownie with crunchy walnuts.<br></p>
+  <p><b>Mint Chocolate Brownie</b> - R18,50<br>Refreshing mint and rich chocolate blend.<br></p>
+  <p><b>Salted Caramel Brownie</b> - R14,75<br>Chocolate brownie drizzled with salted caramel.</p>
+  <p><b>Vegan Brownie</b> - R13,50<br>Dairy-free and egg-free chocolate brownie.</p>
 
   
+  <h2>Cakes (Events & Celebrations)</h2>
+  <p><b>Strawberry Cake</b> - R353,00<br>Fresh strawberry sponge with cream layers.<br></p>
+  <p><b>Chocolate Cake</b> - R404,00<br>Rich chocolate layered cake.<br></p>
+  <p><b>Lemon Cake</b> - R317,00<br>Zesty lemon sponge with citrus glaze.<br></p>
+  <p><b>Carrot Cake</b> - R335,35<br>Spiced carrot cake with cream cheese frosting.<br></button></p>
+  <p><b>Caramel Cake</b> - R380,00<br>Moist sponge cake with caramel filling.<br></p>
+  <p><b>Vanilla Cake</b> - R324,00<br>Classic vanilla sponge with buttercream.<br></p>
+  <p><b>Confetti Cake</b> - R480,00<br>Funfetti sponge with colorful sprinkles.<br></p>
+  <p><b>Black Forest Cake</b> - R406,00<br>Chocolate, cherries, and whipped cream layers.<br></p>
+  <p><b>Ice Cream Cake</b> - R440,00<br>Creamy ice cream layers with cake base.<br></p>
+ 
+  <h2>Swiss Roles</h2>
+
+  <p><b>Chocolate Swiss Roll</b> - R45,00<br>Chocolate sponge rolled with chocolate filling.<br></p>
+  <p><b>Strawberry Swiss Roll</b> - R42,00<br>Vanilla sponge rolled with fresh strawberry filling.<br></p>
+  <p><b>Vanilla Swiss Roll</b> - R40,00<br  >Classic vanilla sponge with cream filling.<br></p>  
+  <p><b>Lemon Swiss Roll</b> - R43,00<br> Zesty lemon sponge with lemon cream filling.<br></p>
+<H2>ORDER NOW!</H2>
 </body>
 </html>
